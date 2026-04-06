@@ -1,0 +1,222 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Holiday Calendar 2026",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          217.546875,
+          147.7265625
+        ],
+        [
+          411.8001708984375,
+          147.7265625
+        ],
+        [
+          411.8001708984375,
+          166.38958740234375
+        ],
+        [
+          217.546875,
+          166.38958740234375
+        ]
+      ]
+    },
+    {
+      "title": "Fixed Public Holidays (*Mandatory)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.0,
+          180.59765625
+        ],
+        [
+          258.15435791015625,
+          180.59765625
+        ],
+        [
+          258.15435791015625,
+          192.86505126953125
+        ],
+        [
+          72.0,
+          192.86505126953125
+        ]
+      ]
+    },
+    {
+      "title": "Optional Public Holidays (*any 5)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.5234375,
+          330.2578125
+        ],
+        [
+          244.75393676757812,
+          330.2578125
+        ],
+        [
+          244.75393676757812,
+          342.3851013183594
+        ],
+        [
+          70.5234375,
+          342.3851013183594
+        ]
+      ]
+    },
+    {
+      "title": "Important Note:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.12109375,
+          322.5234375
+        ],
+        [
+          157.9493408203125,
+          322.5234375
+        ],
+        [
+          157.9493408203125,
+          333.7450866699219
+        ],
+        [
+          71.12109375,
+          333.7450866699219
+        ]
+      ]
+    },
+    {
+      "title": "Thank-You",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          225.9140625,
+          627.9792785644531
+        ],
+        [
+          406.0108947753906,
+          627.9792785644531
+        ],
+        [
+          406.0108947753906,
+          663.9792785644531
+        ],
+        [
+          225.9140625,
+          663.9792785644531
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          185
+        ],
+        [
+          "TableCell",
+          100
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Holiday 2026"
+}

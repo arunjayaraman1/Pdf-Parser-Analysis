@@ -1,0 +1,15 @@
+--- Extraction summary ---
+Source PDF: Holiday 2026.pdf
+Output folder: Holiday 2026_extracted
+Pages extracted: 2
+Execution time: 0 min 0.14 sec (total 0.141 s)
+Data types: plain text (per page, characters / words), tables (3 across all pages), embedded raster images (files + zip)
+Text length: 2244 characters, ~379 words
+Main text file: extracted.txt
+Tables: 3 total
+Embedded images: 2 file(s) in images/ and images.zip
+
+Per-table dimensions (rows × columns):
+  Page 1, table 1: ~6 rows × 4 columns
+  Page 1, table 2: ~19 rows × 4 columns
+  Page 2, table 1: ~7 rows × 4 columns

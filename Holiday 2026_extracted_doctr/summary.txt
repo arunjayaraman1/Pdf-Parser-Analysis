@@ -1,0 +1,15 @@
+--- Extraction summary (DocTR + PyMuPDF render) ---
+Source PDF: Holiday 2026.pdf
+Output folder: Holiday 2026_extracted_doctr
+Pages OCR'd: 2
+Render DPI: 200 (set DOCTR_RENDER_DPI, default 200)
+Execution time: 0 min 14.23 sec (total 14.226 s)
+Data types: OCR plain text (DocTR export, per page), structured OCR JSON: ocr_export.json, tables: not as grid (OCR lines/words; use pdfplumber for tables), rendered page PNGs: ocr_pages/ (DOCTR_RENDER_DPI=200), embedded raster images (files + zip)
+Text length: 2705 characters, ~440 words
+Main text file: extracted.txt
+Full DocTR export: ocr_export.json
+Tables: 0 total (OCR does not produce table grids)
+OCR page images: ocr_pages/
+Embedded images: 2 file(s) in images/ and images.zip
+
+Note: first DocTR run may download weights (slow). Optional: DOCTR_DET_ARCH / DOCTR_RECO_ARCH.

@@ -1,0 +1,13 @@
+--- Extraction summary (Tesseract OCR + PyMuPDF render) ---
+Source PDF: Holiday 2026.pdf
+Output folder: Holiday 2026_extracted_tesseract
+Pages OCR'd: 2
+Execution time: 0 min 2.35 sec (total 2.346 s)
+Data types: OCR plain text (per page from rendered page images), tables: not extracted (OCR text only; use pdfplumber for table grids), rendered page PNGs for OCR: ocr_pages/, embedded raster images (files + zip)
+Text length: 2605 characters, ~420 words
+Main text file: extracted.txt
+Tables: 0 total (OCR does not produce table grids)
+OCR page images (input to Tesseract): ocr_pages/
+Embedded images: 2 file(s) in images/ and images.zip
+
+Requires: Tesseract binary on PATH (or set TESSERACT_CMD / pytesseract.pytesseract.tesseract_cmd).

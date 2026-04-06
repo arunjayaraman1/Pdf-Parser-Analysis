@@ -1,0 +1,5 @@
+message,parser,pdf,scenario,skipped
+Fixture file not found,_skipped_,/Users/newpage/Documents/LLM-Parser/benchmark/fixtures/complex_tables.pdf,complex_tables,True
+Fixture file not found,_skipped_,/Users/newpage/Documents/LLM-Parser/benchmark/fixtures/multipage_tables.pdf,multipage_tables,True
+Fixture file not found,_skipped_,/Users/newpage/Documents/LLM-Parser/benchmark/fixtures/hierarchical_text.pdf,hierarchical_text,True
+Fixture file not found,_skipped_,/Users/newpage/Documents/LLM-Parser/benchmark/fixtures/scanned.pdf,scanned,True

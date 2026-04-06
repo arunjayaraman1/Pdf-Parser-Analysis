@@ -1,0 +1,12 @@
+--- Docling extraction summary ---
+Source: /Users/newpage/Documents/LLM-Parser/Holiday 2026.pdf
+Output folder: /Users/newpage/Documents/LLM-Parser/Holiday 2026_extracted_docling
+Status: success
+Image export: enabled (pipeline + referenced PNGs in docling_media/)
+max_num_pages: 9223372036854775807
+page_range: (1, 9223372036854775807)
+Time: 7.73 s
+Markdown: extracted.md
+Images / media: docling_media/
+JSON: document.json
+

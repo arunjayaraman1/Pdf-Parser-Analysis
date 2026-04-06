@@ -1,0 +1,18 @@
+--- Extraction summary (tabula-py + full text) ---
+Source PDF: Holiday 2026.pdf
+Output folder: Holiday 2026_extracted_tabula
+Tabula mode: stream (TABULA_LATTICE=1 for lattice)
+PDF pages: 2
+Tables returned: 3
+Execution time: 0 min 0.87 sec (total 0.874 s)
+Data types: full text layer (pdfplumber), tables (tabula-py, stream), per-table CSV under tables/, optional tabula_export.csv via convert_into, PDF pages: 2, document_text.txt = part 1 only, embedded raster images (files + zip)
+Combined dump: extracted.txt (part 1 = body, part 2 = tables)
+Body text only: document_text.txt (source: pdfplumber)
+Per-table CSV: tables/table-*.csv
+Embedded images: 2 file(s) in images/ and images.zip
+
+Requires a Java runtime for tabula-py: https://github.com/tabulapdf/tabula-java
+Optional: pip install jpype1 to use JPype (avoids subprocess fallback; message may still appear once).
+  Table 1: ~11 rows × 6 cols
+  Table 2: ~37 rows × 6 cols
+  Table 3: ~6 rows × 4 cols

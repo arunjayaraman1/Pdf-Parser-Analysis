@@ -1,0 +1,39 @@
+streamlit
+pandas
+requests
+Pillow
+pytest
+psutil
+reportlab
+
+# Traditional / Core
+PyMuPDF
+pdfplumber
+pdfminer.six
+
+# OCR
+pytesseract
+easyocr
+paddleocr
+python-doctr
+
+# Table Extraction
+camelot-py
+tabula-py
+jpype1  # optional: tabula-py uses in-process Java; without it you see "Fallback to subprocess" (still works)
+
+# Layout / Structure
+layoutparser
+opencv-python
+unstructured[all-docs]
+
+# Modern / LLM-based
+docling
+llmsherpa
+# Surya OCR (suryaocr.py): transformers 5.x breaks ROPE_INIT_FUNCTIONS / Qwen2 decoder
+transformers>=4.56.1,<5.0
+surya-ocr
+
+# Optional best-effort integrations (install manually if available):
+# magic-pdf
+# liteparse

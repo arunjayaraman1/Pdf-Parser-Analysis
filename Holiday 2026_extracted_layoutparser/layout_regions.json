@@ -1,0 +1,5 @@
+{
+  "regions": [],
+  "model": "default",
+  "layout_error": "Layout detection failed: ScannerError: mapping values are not allowed here\n  in \"/Users/newpage/.torch/iopath_cache/s/f3b12qc4hc0yh4m/config.yml?dl=1\", line 42, column 18\n\nModel URL / config: lp://PubLayNet/faster_rcnn_R_50_FPN_3x/config\n\nYAML load error on the PubLayNet config often means the cached download is not valid (e.g. Dropbox returned HTML, or a bad file under ~/.torch/iopath_cache).\nTry deleting the cached folder for that config and re-run, for example:\n  rm -rf ~/.torch/iopath_cache/s/f3b12qc4hc0yh4m\nOr set LAYOUTPARSER_MODEL to a local .yaml config path from the detectron2 model zoo.\n\nPART 1 (full text above) is unchanged."
+}

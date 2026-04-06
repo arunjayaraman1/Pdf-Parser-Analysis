@@ -1,0 +1,15 @@
+--- Extraction summary (EasyOCR + PyMuPDF render) ---
+Source PDF: Holiday 2026.pdf
+Output folder: Holiday 2026_extracted_easyocr
+Languages: en (override with EASYOCR_LANGS, e.g. en,ch_sim)
+GPU: False (set EASYOCR_USE_GPU=1 to enable)
+Pages OCR'd: 2
+Execution time: 0 min 35.12 sec (total 35.120 s)
+Data types: OCR plain text (per page from rendered page images), tables: not extracted (OCR text only; use pdfplumber for table grids), rendered page PNGs for OCR: ocr_pages/, embedded raster images (files + zip)
+Text length: 2688 characters, ~432 words
+Main text file: extracted.txt
+Tables: 0 total (OCR does not produce table grids)
+OCR page images (input to EasyOCR): ocr_pages/
+Embedded images: 2 file(s) in images/ and images.zip
+
+Note: first EasyOCR run may download language models (slow).

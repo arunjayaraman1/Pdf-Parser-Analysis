@@ -1,0 +1,30 @@
+[
+  {
+    "scenario": "complex_tables",
+    "pdf": "/Users/newpage/Documents/LLM-Parser/benchmark/fixtures/complex_tables.pdf",
+    "parser": "_skipped_",
+    "skipped": true,
+    "message": "Fixture file not found"
+  },
+  {
+    "scenario": "multipage_tables",
+    "pdf": "/Users/newpage/Documents/LLM-Parser/benchmark/fixtures/multipage_tables.pdf",
+    "parser": "_skipped_",
+    "skipped": true,
+    "message": "Fixture file not found"
+  },
+  {
+    "scenario": "hierarchical_text",
+    "pdf": "/Users/newpage/Documents/LLM-Parser/benchmark/fixtures/hierarchical_text.pdf",
+    "parser": "_skipped_",
+    "skipped": true,
+    "message": "Fixture file not found"
+  },
+  {
+    "scenario": "scanned",
+    "pdf": "/Users/newpage/Documents/LLM-Parser/benchmark/fixtures/scanned.pdf",
+    "parser": "_skipped_",
+    "skipped": true,
+    "message": "Fixture file not found"
+  }
+]

@@ -1,0 +1,13 @@
+--- RapidOCR PDF summary ---
+Source: /Users/newpage/Documents/LLM-Parser/Holiday 2026.pdf
+Output: /Users/newpage/Documents/LLM-Parser/Holiday 2026_extracted_rapidocr
+Pages in output: 2
+DPI: 200 (RAPIDOCR_DPI)
+force_ocr: False (RAPIDOCR_FORCE_OCR)
+page_num_list: None
+model_type: mobile (RAPIDOCR_MODEL_TYPE)
+Time: 0.02 s
+Per-page dump: extracted.txt
+Plain text: document_text.txt
+JSON: results.json
+

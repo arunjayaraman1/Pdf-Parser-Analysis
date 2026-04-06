@@ -1,0 +1,10 @@
+--- Marker extraction summary ---
+Source: /Users/newpage/Documents/LLM-Parser/Holiday 2026.pdf
+Output: /Users/newpage/Documents/LLM-Parser/Holiday 2026_extracted_marker
+Format: markdown
+use_llm: False
+Images written: 2
+Time: 31.46 s
+Main file: extracted.md
+Metadata: metadata.json
+

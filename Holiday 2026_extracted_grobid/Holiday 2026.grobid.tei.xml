@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Holiday Calendar 2026</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Holiday Calendar 2026</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1783D9D867E003BFC635DFFFB3667658</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-04-06T07:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Sr No. Holiday name Date Day</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>1 New Year Eve 1st January 2026 Thursday 2 Makara Sankranti / Uttarayana 15th January 2026 Thursday 3 Chhatrapati Shivaji Jayanthi 19th February 2026 Thursday 4 Holi 2nd March 2026 Monday 5 Ugadi / Gudi Padwa 19th March 2026 Thursday 6 Id ul Fitr 20th March 2026 Friday 7 Ram Navami 27th March 2026 Friday 8 Mahaveera Jayanthi 31st March 2026 Tuesday 9 Good Friday 3rd April 2026 Friday 10 Dr. B.R. Ambedkar Jayanthi 14th April 2026 Tuesday 11 Basava Jayanthi 20th April 2026 Monday 12 Labour Day / Buddha Purnima 1st May 2026 Friday 13 Eid-ul-Adha (Bakrid) 28th May 2026 Thursday 14 Muharram 26th June 2026 Friday 15 Eid-e-Milad 26th August 2026 Wednesday 16 Raksha Bandhan 28th August 2026 Friday 17 Janmashtami 4th September 2026 Friday 18 Ganesh Chaturthi 14th September 2026 Monday Vishwakarma Jayanthi 17th September 2026 Thursday 20 Maha Ashtami 19th October 2026 Monday 21 Maha Navami 20th October 2026 Tuesday 22 Maharshi Valmiki Jayanthi 26th October 2026 Monday 23 Chhath Puja 16th November 2026 Monday 24 Guru Nanak Jayanthi 24th November 2026 Tuesday 25 Christmas Eve 24th December 2026 Thursday Important Note:</p><p>• There are total 10 calendar holidays for the year 2026, equally divided into fixed and optional holidays.</p><p>• Team Members are requested honour the Fixed Public holidays.</p><p>• Team Members can avail any 5-optional leaves from the list of Optional Public Holiday in the calendar Year 2026.</p><p>• Supervisor/ Team leads can use their discretion on the Holidays as per the business exigencies and personal requirement of the TeamMember.</p><p>• All the optional holidays can be availed only after the approval is received by the manager on KEKA portal.</p><p>• Team members are requested to plan leaves and holidays ahead of time so as to avoid situations where leave needs to be compulsorily taken at the end of the year.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thank-You</head></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

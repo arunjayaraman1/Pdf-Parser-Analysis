@@ -1,0 +1,19 @@
+--- Surya OCR summary ---
+Source: /Users/newpage/Documents/LLM-Parser/Holiday 2026.pdf
+Output: /Users/newpage/Documents/LLM-Parser/Holiday 2026_extracted_surya
+Pages (images): 2
+Text lines: 163
+DPI / highres DPI: 96 / 192
+math_mode: True (SURYA_MATH)
+return_words: False (SURYA_WORDS)
+drop_repeated_text: False (SURYA_DROP_REPEATED)
+detection_batch_size: None (SURYA_DET_BATCH)
+recognition_batch_size: None (SURYA_REC_BATCH)
+DISABLE_TQDM: False
+TORCH_DEVICE (env): (default)
+Time: 88.44 s
+Lines + layout: extracted.txt
+Plain text: document_text.txt
+JSON: results.json
+
+Documentation (Context7): /datalab-to/surya — RecognitionPredictor, load_from_file, load_pdf.

@@ -1,0 +1,15 @@
+--- Extraction summary (Unstructured + full text) ---
+Source PDF: Holiday 2026.pdf
+Output folder: Holiday 2026_extracted_unstructured
+partition_pdf strategy: hi_res
+Elements parsed: 30 (JSON stores up to UNSTRUCTURED_JSON_MAX_ELEMENTS)
+Max page (metadata): 2
+PDF pages (fitz/pdfplumber): 2
+Execution time: 0 min 11.16 sec (total 11.163 s)
+Data types: full text layer (pdfplumber), Unstructured elements (strategy=hi_res), elements JSON (cap 500): elements.json, approx. table-like elements: 3, PDF pages (text layer): 2, document_text.txt = part 1 only, embedded raster images (files + zip)
+Combined: extracted.txt
+Body only: document_text.txt
+Structured: elements.json
+Embedded images: 2 file(s) in images/ and images.zip
+
+hi_res is slow and may download models on first run. Use UNSTRUCTURED_STRATEGY=fast for lighter runs.
