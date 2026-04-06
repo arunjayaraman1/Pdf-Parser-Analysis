@@ -23,7 +23,7 @@ Production-oriented Streamlit benchmark app for comparing multiple PDF parsing, 
 - EasyOCR
 - PaddleOCR
 - DocTR
-- RapidOCR
+- RapidOCR PDF
 - Surya OCR
 
 ### Table Extraction
@@ -38,7 +38,6 @@ Production-oriented Streamlit benchmark app for comparing multiple PDF parsing, 
 ### Modern / LLM-based
 - MinerU (best-effort CLI integration)
 - LiteParse (best-effort dynamic API integration)
-- Unstructured (advanced usage included)
 - Docling
 - LLMSherpa
 - Marker
@@ -89,18 +88,6 @@ chmod +x run_app.sh
 ./run_app.sh
 ```
 
-### `ModuleNotFoundError: No module named 'fitz'` / `pdfplumber` / etc.
-
-That almost always means Streamlit is running under a **different Python** than the one where you installed packages (for example: packages in `.venv`, but `streamlit` on your PATH is from `/Library/Frameworks/Python/...`).
-
-Fix:
-
-1. Activate the venv: `source .venv/bin/activate`
-2. Install again: `python -m pip install -r requirements.txt`
-3. Run: `python -m streamlit run app.py` (not a global `streamlit` unless it is the venv’s)
-
-Check the **Interpreter** path shown in the app sidebar; it should point inside `.venv/.../python` when you use the venv.
-
 ## Test Recommendations (Document Coverage)
 
 Run benchmarks across:
@@ -124,7 +111,7 @@ Use the summary table and side-by-side tabs to compare extraction quality and op
 | EasyOCR | Apache-2.0 | Suitable |
 | PaddleOCR | Apache-2.0 | Suitable |
 | DocTR | Apache-2.0 | Suitable |
-| RapidOCR | Apache-2.0 | Suitable |
+| RapidOCR PDF | Apache-2.0 | Suitable |
 | Surya OCR | Varies by package | Verify in your deployment |
 | Camelot | MIT | Suitable |
 | Tabula-py | MIT | Suitable |
@@ -143,7 +130,7 @@ Always verify the exact installed package license/version before production roll
 
 - **Fast baseline text extraction:** PyMuPDF, pdfplumber
 - **Noisy/scanned documents:** Tesseract, EasyOCR, PaddleOCR, DocTR
-- **Modern OCR quality focus:** RapidOCR, Surya OCR, Marker
+- **Modern OCR quality focus:** RapidOCR PDF, Surya OCR, Marker
 - **Table-heavy financial/report docs:** Camelot, Tabula-py, Unstructured
 - **Layout-aware parsing:** LayoutParser, Unstructured, GROBID
 - **LLM/RAG pipeline-ready structure:** Docling, LLMSherpa, Unstructured, MinerU/LiteParse (if environment supports them)
