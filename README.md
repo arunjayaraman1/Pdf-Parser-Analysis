@@ -43,6 +43,10 @@ Production-oriented Streamlit benchmark app for comparing multiple PDF parsing, 
 - LLMSherpa
 - Marker
 
+### Script-backed integrations
+- `RapidOCR PDF`, `Surya OCR`, and `Marker` are run through local wrapper scripts.
+- The app invokes `rapidocr.py`, `suryaocr.py`, and `marker.py` with `python` and captures their generated outputs.
+
 ## Setup
 
 1. Create and activate a virtual environment:
@@ -120,6 +124,8 @@ Use the summary table and side-by-side tabs to compare extraction quality and op
 | EasyOCR | Apache-2.0 | Suitable |
 | PaddleOCR | Apache-2.0 | Suitable |
 | DocTR | Apache-2.0 | Suitable |
+| RapidOCR | Apache-2.0 | Suitable |
+| Surya OCR | Varies by package | Verify in your deployment |
 | Camelot | MIT | Suitable |
 | Tabula-py | MIT | Suitable |
 | LayoutParser | Apache-2.0 | Suitable |
@@ -129,6 +135,7 @@ Use the summary table and side-by-side tabs to compare extraction quality and op
 | LiteParse | Varies by package | Verify in your deployment |
 | Docling | MIT | Suitable |
 | LLMSherpa | Apache-2.0 | Suitable |
+| Marker | MIT | Suitable |
 
 Always verify the exact installed package license/version before production rollout.
 
@@ -136,6 +143,7 @@ Always verify the exact installed package license/version before production roll
 
 - **Fast baseline text extraction:** PyMuPDF, pdfplumber
 - **Noisy/scanned documents:** Tesseract, EasyOCR, PaddleOCR, DocTR
+- **Modern OCR quality focus:** RapidOCR, Surya OCR, Marker
 - **Table-heavy financial/report docs:** Camelot, Tabula-py, Unstructured
 - **Layout-aware parsing:** LayoutParser, Unstructured, GROBID
 - **LLM/RAG pipeline-ready structure:** Docling, LLMSherpa, Unstructured, MinerU/LiteParse (if environment supports them)
