@@ -1,0 +1,10 @@
+
+--- SUMMARY ---
+PDF: Holiday 2026.pdf
+Pages: 2
+Mode: Text
+Language: en
+GPU: False
+Time: 0 min 0.29 sec
+Text length: 2403 chars
+Images extracted: 2

@@ -1,3 +1,9 @@
+"""
+Text extraction runner using pdfminer.six.
+
+Must **not** be named ``pdfminer.py`` — that shadows the real ``pdfminer`` package and breaks
+MinerU, Camelot, and anything else that does ``import pdfminer``.
+"""
 from __future__ import annotations
 
 import shutil
@@ -6,7 +12,7 @@ import time
 import zipfile
 from pathlib import Path
 
-# Avoid importing this local file as the pdfminer package.
+# When this file is executed as __main__, drop script dir so ``import pdfminer`` resolves to site-packages.
 THIS_DIR = str(Path(__file__).resolve().parent)
 if THIS_DIR in sys.path:
     sys.path.remove(THIS_DIR)
